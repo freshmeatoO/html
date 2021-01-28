@@ -31,4 +31,4 @@ cur.executemany("INSERT INTO orders VALUES (?,?,?,?);", orders)
 conn.commit()
 cur.execute("SELECT * FROM users;")
 one_result = cur.fetchone()
-print (one_result)
+print (one_result
