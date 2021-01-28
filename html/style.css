@@ -1,0 +1,29 @@
+* { 
+    text-decoration: none;
+}
+html{
+    background-color: #a4edbe;
+}
+.style {color: yellow}
+p#example:first-letter {
+    color:red;
+}
+p#example:first-line {
+    color: #e7943b;
+}
+
+
+.href {
+    text-decoration: none;
+}
+
+.href:hover {
+   color:green;
+}
+
+p:active {
+    background-color: red;
+}
+.href:visited {
+    color: red;
+}
